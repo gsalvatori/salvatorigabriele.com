@@ -3,6 +3,7 @@ layout: post
 title:  "Jekyll is here."
 date:   2013-11-16 21:01:00
 categories: news
+comments: true
 ---
 
 Jekyll is here. I moved the entire blog and website on my github page, using this great blog platform written in Ruby. The domain is not changed, always provided by OVH, so I just create an <b>A record</b> on my DNS zone to point it towards Github IP address.
