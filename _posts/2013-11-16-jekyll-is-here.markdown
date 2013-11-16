@@ -5,7 +5,7 @@ date:   2013-11-16 21:01:00
 categories: news
 ---
 
-Jekyll is here. I moved the entire blog and website on my github page, using this great blog platform written in Ruby. The domain is not changed, always provided by OVH, so i just create an <b>A record</b> on my DNS zone to point it towards Github IP address.
+Jekyll is here. I moved the entire blog and website on my github page, using this great blog platform written in Ruby. The domain is not changed, always provided by OVH, so I just create an <b>A record</b> on my DNS zone to point it towards Github IP address.
 
 {% highlight bash %}
 gabriele @ osiris { ~ } [ sab nov 16 ] [ 07:50 ]
@@ -17,6 +17,8 @@ gabriele @ osiris { ~ } [ sab nov 16 ] [ 07:50 ]
 salvatorigabriele.com.	80895	IN	A	204.232.175.78
 
 {% endhighlight%}
+
+
 
 
 
