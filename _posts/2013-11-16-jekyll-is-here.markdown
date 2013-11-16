@@ -19,7 +19,7 @@ salvatorigabriele.com.	80895	IN	A	204.232.175.78
 
 {% endhighlight%}
 
-{% if page.comments %}
+% if page.comments %
 
     <div id="disqus_thread"></div>
     <script type="text/javascript">
@@ -36,7 +36,7 @@ salvatorigabriele.com.	80895	IN	A	204.232.175.78
     <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
     
-{% endif %}
+% endif %
 
 
 
