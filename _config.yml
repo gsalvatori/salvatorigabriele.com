@@ -1,3 +1,4 @@
 name: salvatorigabriele.com
 markdown: redcarpet
 pygments: true
+comments: true
