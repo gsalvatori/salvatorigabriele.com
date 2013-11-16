@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[ snippets ] Upper-Triangular Matrix"
+title:  "Upper-Triangular Matrix"
 date:   2013-06-13 16:03:00
 categories: snippets
 ---
