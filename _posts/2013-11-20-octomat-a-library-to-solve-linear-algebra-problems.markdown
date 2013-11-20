@@ -5,7 +5,7 @@ date:   2013-11-20 13:18:00
 categories: projects
 ---
 
-I worked for a while to this library to solve linear algebra problems and finally i released a publishable version, so, the library contains all the main features you need to consider it more or less "useful". Briefly, the functioning is very simple: you have to import only the library in a file, because it alredy includes all the needed standard libraries. Then you can call any function inside it:
+I worked for a while to this library to solve linear algebra problems and finally i released a publishable version, so, the library contains all the main features you need to consider it more or less "useful". Briefly, the functioning is very simple: you have to import only the library in a file, because it alredy includes all the needed <u>standard</u> libraries. Then you can call any function inside it:
 
 {% highlight C++ %}
 #include "octomat.cpp"
