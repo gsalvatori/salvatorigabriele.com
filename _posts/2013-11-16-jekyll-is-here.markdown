@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Jekyll is here."
+title:  "Jekyll is here"
 date:   2013-11-16 21:01:00
 categories: news
 ---
