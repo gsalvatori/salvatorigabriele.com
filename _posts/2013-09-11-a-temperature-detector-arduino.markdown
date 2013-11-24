@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A temperature detector with Arduino and LM35DZ sensor."
+title:  "A temperature detector with Arduino and LM35DZ sensor"
 date:   2013-09-11 16:03:00
 categories: papers
 ---
