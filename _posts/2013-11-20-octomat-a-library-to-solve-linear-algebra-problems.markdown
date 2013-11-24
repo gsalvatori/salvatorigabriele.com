@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "octomat : A C++ library to solve linear algebra problems. "
+title:  "octomat : A C++ library to solve linear algebra problems"
 date:   2013-11-20 13:18:00
 categories: projects
 ---
