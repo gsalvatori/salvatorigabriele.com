@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Maker Faire @ Palazzo dei Congressi, Rome."
+title:  "Maker Faire @ Palazzo dei Congressi, Rome"
 date:   2013-10-06 16:03:00
 categories: events
 ---
