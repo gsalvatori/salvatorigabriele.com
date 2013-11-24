@@ -8,11 +8,14 @@ categories: projects
 I worked for a while to this library to solve linear algebra problems and finally i released a publishable version, so, the library contains all the main features you need to consider it more or less "useful". Briefly, the functioning is very simple: you have to import only the library in a file, because it alredy includes all the needed <u>standard</u> libraries. Then you can call any function inside it:
 
 {% highlight C++ %}
-#include "octomat.cpp"
+#include <iostream>
+
+#include "octomat.hpp"
 
 using namespace std;
+using namespace octomat;
 
-void example(){
+int main(){
 
 Matrix a(3,3);
 Matrix b(3,3);
@@ -20,11 +23,13 @@ Matrix b(3,3);
 Matrix final(3,3);
 
 a.fill_matrix();
-b.fill_matrix():
+b.fill_matrix();
 
 final = a + b;
 
 final.print_matrix();
+
+return 0;
 
 }
 {% endhighlight%}
