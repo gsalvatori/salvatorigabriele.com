@@ -163,7 +163,7 @@ a:visited { color: #000; }
 /*** fixed top nav bar ***/
 
 #navigation {
-  position: fixed;
+  position: static;
   top: 0;
   width: 100%;
   color: #ffffff;
