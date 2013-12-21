@@ -58,7 +58,4 @@ Matrix Matrix::operator+ (const Matrix &other){
 
 This is just a small example, you can find all the features and the entire code at <a href="https://github.com/gsalvatori/octomat">this</a> link to the project on Github.
 
-<br>
-
-<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fsalvatorigabriele.com%2Fprojects%2F2013%2F11%2F20%2Foctomat-a-library-to-solve-linear-algebra-problems.html&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=true&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowTransparency="true"></iframe>
 
