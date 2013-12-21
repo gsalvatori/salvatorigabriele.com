@@ -58,5 +58,9 @@ Matrix Matrix::operator+ (const Matrix &other){
 
 This is just a small example, you can find all the features and the entire code at <a href="https://github.com/gsalvatori/octomat">this</a> link to the project on Github.
 
-<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fsalvatorigabriele.com%2Fprojects%2F2013%2F11%2F20%2Foctomat-a-library-to-solve-linear-algebra-problems.html&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=true&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowTransparency="true"></iframe> <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://salvatorigabriele.com/projects/2013/11/20/octomat-a-library-to-solve-linear-algebra-problems.html" data-via="_gsalvatori">Tweet</a>
+<br>
+
+<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fsalvatorigabriele.com%2Fprojects%2F2013%2F11%2F20%2Foctomat-a-library-to-solve-linear-algebra-problems.html&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=true&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowTransparency="true"></iframe>
+
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://salvatorigabriele.com/projects/2013/11/20/octomat-a-library-to-solve-linear-algebra-problems.html" data-via="_gsalvatori">Tweet</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
