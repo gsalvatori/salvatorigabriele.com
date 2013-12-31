@@ -1,6 +1,6 @@
 <?php
 
-if(isset($_GET['first_name'])) {
+if(isset($_REQUEST['first_name'])) {
 
     $email_to = "salvatorigabriele@gmail.com";
     $email_subject = "Nuovo iscritto alla newsletter";
@@ -16,12 +16,12 @@ if(isset($_GET['first_name'])) {
     }
 
     // validation expected data exists
-    if(!isset($_GET['first_name']) {
+    if(!isset($_REQUEST['first_name']) {
         
         died('We are sorry, but there appears to be a problem with the form you submitted.');       
     }
 
-    $first_name = $_GET['first_name']; // required
+    $first_name = $_REQUEST['first_name']; // required
  
 
     $error_message = "";
