@@ -12,9 +12,36 @@ title: salvatorigabriele.com
 
 <input type="hidden" name="dest_email" value="tuamail@tuosito.com">
 <table>
-<tr><td valign="top">Tua Mail:</td><td><input type="text" name="mitt_email" size="20"></td></tr>
+<tr><td valign="top">E-mail: </td><td><input type="text" name="mitt_email" size="20"></td></tr>
 <tr><td colspan="2" align="center"><input type="button" value="Send" onClick="Email()"></td></tr>
 </table>
 </form>
+
+<script language="Javascript">
+<!--
+
+function Email() {
+
+
+var dest_email = document.modulo.dest_email.value;
+var mitt_email = document.modulo.mitt_email.value;
+var oggetto = "Nuovo iscritto alla newsletter"; 
+
+
+if ((mitt_email.indexOf("@") == (-1)) || (mitt_email == "") || (mitt_email == "undefined")) {
+
+alert("Inserire un indirizzo email valido.");
+document.modulo.mitt_email.focus();
+}
+
+else {
+
+location.href = "mailto:" + dest_email + "?Subject=" + oggetto + "&Body=messaggio: " + mitt_email;
+}
+
+}
+
+//-->
+</script>
   
 </div>
