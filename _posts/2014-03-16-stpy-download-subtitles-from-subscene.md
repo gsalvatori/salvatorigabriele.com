@@ -12,7 +12,9 @@ Usage (from command-line) :
 ```bash
 python stpy.py -q "query" -l "language"
 ```
+
 ----
+
 
 ```bash
 python stpy.py -q the-wolf-of-wall-street -l italian
