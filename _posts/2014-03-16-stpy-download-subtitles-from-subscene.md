@@ -13,6 +13,7 @@ Usage (from command-line) :
 python stpy.py -q "query" -l "language"
 ```
 ___
+<br>
 ___
 
 ```bash
