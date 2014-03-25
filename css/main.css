@@ -203,4 +203,10 @@ a:visited { color: #000; }
  white-space: nowrap;
 }
 
+#container p{
+	
+	float: left;
+	
+}
+
 /*** end social media icons container ***/
