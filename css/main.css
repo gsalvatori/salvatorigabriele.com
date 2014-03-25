@@ -196,7 +196,7 @@ a:visited { color: #000; }
 
 
 /*** social media icons container ***/
-div#container{
+#container{
  float: left;
  display: inline;
  height: 800px;
