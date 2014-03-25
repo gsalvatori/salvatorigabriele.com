@@ -193,3 +193,16 @@ a:visited { color: #000; }
 
 
 /*** endfixed top nav bar ***/
+
+
+/*** social media icons container ***/
+#container{
+ float: left;
+ display: inline;
+ height: 800px;
+ white-space: nowrap;
+}
+
+
+
+/*** end social media icons container ***/
