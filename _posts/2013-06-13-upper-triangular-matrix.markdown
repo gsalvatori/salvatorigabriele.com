@@ -9,7 +9,7 @@ This is a simple python snippet to check if a N*N matrix is ​​upper triangul
 
 Code is very simple. It is composed by three functions, the first check if all pivots of the matrix are different from zero: 
 
-{% highlight python %}
+```python
 def check_pivot ( matrix ):
 
   for x in range(0,len(matrix)):
@@ -17,7 +17,7 @@ def check_pivot ( matrix ):
       return False
   
   return True
-{% endhighlight  %}
+```
 
 The second function check if all components below pivots are zero: 
 
