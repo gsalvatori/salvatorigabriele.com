@@ -23,7 +23,7 @@ and
 sudo usermod -g www-data www-data
 ```
 
-Next step is to create the /var/www/ path that will contain the actual webserver, and of course we also set the right permissions:
+Next step is to create the /var/www/ path that will contain the actual webserver, and of course we also have to set the right permissions:
 
 ```bash
 cd /var/
