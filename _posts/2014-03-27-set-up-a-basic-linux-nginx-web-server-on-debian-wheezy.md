@@ -47,7 +47,7 @@ In theory, we can already start our web server and notice changes on localhost (
 sudo service nginx start
 ```
 
-but there is still an additional step required to complete the procedure. We have to edit nginx config files with:
+but there is still an additional step required to complete the procedure. We have to edit nginx config file with:
 
 ```bash
 sudo nano /etc/nginx/sites-enabled/default
