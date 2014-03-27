@@ -93,7 +93,7 @@ ul.posts {
 }
 
   .site .title a {
-    color: #a00;
+    color: black;
     text-decoration: none;
   }
 
@@ -102,7 +102,7 @@ ul.posts {
   }
 
   .site .title a.extra {
-    color: #aaa;
+    color: black;
     text-decoration: none;
     margin-left: 1em;
   }
