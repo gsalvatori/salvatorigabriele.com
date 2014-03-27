@@ -5,49 +5,72 @@
 /*****************************************************************************/
 
 /* Global Reset */
+
 * {
   margin: 0;
   padding: 0;
 }
 
-html, body { height: 100%; }
+html, body {
+  height: 100%;
+}
 
 body {
-  background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
-  font-size: small;
+  background-color: white;
+  font: 13.34px helvetica, arial, clean, sans-serif;
+  *font-size: small;
   text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
+  font-size: 100%;
+}
 
-h1 { margin-bottom: 1em; }
-p { margin: 1em 0; }
+h1 {
+  margin-bottom: 1em;
+}
 
-a         { color: #000; }
-a:hover   { color: #000; }
-a:visited { color: #000; }
+p {
+  margin: 1em 0;
+}
+
+a {
+  color: #00a;
+}
+
+a:hover {
+  color: black;
+}
+
+a:visited {
+  color: #a0a;
+}
+
+table {
+  font-size: inherit;
+  font: 100%;
+}
 
 /*****************************************************************************/
 /*
 /* Home
 /*
 /*****************************************************************************/
-.posts {
+
+ul.posts {
   list-style-type: none;
   margin-bottom: 2em;
 }
 
-.posts li {
-  line-height: 1.75em;
-}
+  ul.posts li {
+    line-height: 1.75em;
+  }
 
-.posts span {
-  color: #aaa;
-  font-family: Monaco, "Courier New", monospace;
-  font-size: 80%;
-}
+  ul.posts span {
+    color: #aaa;
+    font-family: Monaco, "Courier New", monospace;
+    font-size: 80%;
+  }
 
 /*****************************************************************************/
 /*
@@ -56,70 +79,68 @@ a:visited { color: #000; }
 /*****************************************************************************/
 
 .site {
-  font-size: 115%;
+  font-size: 110%;
   text-align: justify;
   width: 42em;
-  margin: 3em auto 2em;
+  margin: 3em auto 2em auto;
   line-height: 1.5em;
 }
 
-.header a {
-  font-weight: bold;
-  text-decoration: none;
-}
-
 .title {
-  display: inline-block;
+  color: #a00;
+  font-weight: bold;
   margin-bottom: 2em;
 }
 
-.title a {
-  color: #a00;
-}
+  .site .title a {
+    color: black;
+    text-decoration: none;
+  }
 
-.title a:hover {
-  color: #000;
-}
+  .site .title a:hover {
+    color: black;
+  }
 
-.header a.extra {
-  color: #aaa;
-  margin-left: 1em;
-}
+  .site .title a.extra {
+    color: black;
+    text-decoration: none;
+    margin-left: 1em;
+  }
 
-.header a.extra:hover {
-  color: #000;
-}
+  .site .title a.extra:hover {
+    color: black;
+  }
 
-.meta {
-  color: #aaa;
-}
+  .site .meta {
+    color: #aaa;
+  }
 
-.footer {
-  font-size: 80%;
-  color: #666;
-  border-top: 4px solid #eee;
-  margin-top: 2em;
-  overflow: hidden;
-}
+  .site .footer {
+    font-size: 80%;
+    color: #666;
+    border-top: 4px solid #eee;
+    margin-top: 2em;
+    overflow: hidden;
+  }
 
-.footer .contact {
-  float: left;
-  margin-right: 3em;
-}
+    .site .footer .contact {
+      float: left;
+      margin-right: 3em;
+    }
 
-.footer .contact a {
-  color: #8085C1;
-}
+      .site .footer .contact a {
+        color: #8085C1;
+      }
 
-.footer .rss {
-  margin-top: 1.1em;
-  margin-right: -.2em;
-  float: right;
-}
+    .site .footer .rss {
+      margin-top: 1.1em;
+      margin-right: -.2em;
+      float: right;
+    }
 
-.footer .rss img {
-  border: 0;
-}
+      .site .footer .rss img {
+        border: 0;
+      }
 
 /*****************************************************************************/
 /*
@@ -127,82 +148,50 @@ a:visited { color: #000; }
 /*
 /*****************************************************************************/
 
-/* standard */
-.post pre {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .4em;
+#post {
+
 }
 
-.post ul, .post ol {
-  margin-left: 1.35em;
+  /* standard */
+
+  #post pre {
+    border: 1px solid #ddd;
+    background-color: #eef;
+    padding: 0 .4em;
+  }
+
+  #post ul,
+  #post ol {
+    margin-left: 1.35em;
+  }
+
+  #post code {
+    border: 1px solid #ddd;
+    background-color: #eef;
+    font-size: 85%;
+    padding: 0 .2em;
+  }
+
+    #post pre code {
+      border: none;
+    }
+
+  /* terminal */
+
+  #post pre.terminal {
+    border: 1px solid black;
+    background-color: #333;
+    color: white;
+  }
+
+  #post pre.terminal code {
+    background-color: #333;
+  }
+
+#related {
+  margin-top: 2em;
 }
 
-.post code {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .2em;
-}
-
-.post pre code {
-  border: none;
-}
-
-/* terminal */
-.post pre.terminal {
-  border: 1px solid #000;
-  background-color: #333;
-  color: #FFF;
-}
-
-.post pre.terminal code {
-  background-color: #333;
-}
-
-
-/*** fixed top nav bar ***/
-
-#navigation {
-  position: static;
-  top: 0;
-  width: 100%;
-  color: #ffffff;
-  height: 35px;
-  text-align: center;
-  padding-top: 15px;
-  /* Adds shadow to the bottom of the bar */
-  -webkit-box-shadow: 0px 0px 8px 0px #000000;
-  -moz-box-shadow: 0px 0px 8px 0px #000000;
-  box-shadow: 0px 0px 8px 0px #000000;
-  /* Adds the transparent background */
-  background-color: rgba(36,36,36,1.0);
-  color: rgba(1, 1, 1, 0.8);
-}
-
-#navigation a {
-	font-size: 14px;
-	padding-left: 20px;
-	padding-right: 45px;
-	color: white;
-	text-decoration: none;
-}
-
-#navigation a:hover {
-	color: grey;
-}
-
-
-/*** endfixed top nav bar ***/
-
-
-/*** social media icons container ***/
-#container{
- float: left;
- display: inline;
- height: 800px;
- white-space: nowrap;
-}
-
-
-
-/*** end social media icons container ***/
+  #related h2 {
+    margin-bottom: 1em;
+  }

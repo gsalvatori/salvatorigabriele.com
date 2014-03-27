@@ -13,37 +13,25 @@
         <link rel="stylesheet" href="/css/main.css">
 
     </head>
-    <body>
+<body>
 
-	    <div id="navigation">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a href="/">home</a>
-            <a href="/about.html">about</a>
-            <a href="/social.html">social</a>
-            <a href="/contactme.html">contact me</a>
-	    </div>
-	
-        <div class="site">
+<div class="site">
+  <div class="title">
+    <a href="/">salvatorigabriele.com</a>
+    <a class="extra" href="/about.html">about</a>
+    <a class="extra" href="/blog.html">blog</a>
+    <a class="extra" href="/cv.html">CV</a>
+  </div>
+  
+  {{ content }}
+  
+  <div class="footer">
 
-          {{ content }}
+    © 2014 | <a href="mailto:salvatorigabriele@gmail.com"><b>contact me</b></a>
 
-          <div class="footer">
-            <div class="contact">
-              <p>
-                Github<br />
-                Twitter<br />
-                Facebook
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/gsalvatori" target="_blank" >github.com/gsalvatori</a><br />
-                <a href="https://twitter.com/_gsalvatori" target="_blank" >twitter.com/_gsalvatori</a><br />
-                <a href="https://facebook.com/salvatorigabriele" target="_blank" >facebook.com/salvatorigabriele</a><br />
-              </p>
-            </div>
-          </div>
-        </div>
+  </div>
+</div>
 
-    </body>
+
+</body>
 </html>
