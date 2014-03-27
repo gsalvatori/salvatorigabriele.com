@@ -7,6 +7,7 @@ categories: projects
 
 I worked for a while to this library to solve linear algebra problems and finally i released a publishable version, so, the library contains all the main features you need to consider it more or less "useful". Briefly, the functioning is very simple: you have to import only the library in a file, because it alredy includes all the needed <u>standard</u> libraries. Then you can call any function inside it:
 
+<pre>
 {% highlight C++ %}
 #include <iostream>
 
@@ -33,6 +34,7 @@ return 0;
 
 }
 {% endhighlight %}
+</pre>
 
 In this example, we declared three 3X3 matrix, final will contain the sum of a and b simply using the classic binary operator. How can this be possibile? C++ allows <b>operator overloading</b>, a specific case of polymorphism, where different operators have different implementations depending on their arguments. So, in practice, we have "reassigned" the procedure which consists in adding two matrices each other, to the + operator:
 
