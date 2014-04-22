@@ -23,12 +23,13 @@ title: salvatorigabriele.com
 <br>
 <div id="home">
   <h1>Blog Posts</h1>
-  <a href="">[ view all articles ]</a>
   <!-- <a href="/subscribe.html"><b>Subscribe</b></a> to the newsletter to receive new articles via e-mail.<br><br> -->
   <ul class="posts">
     {% for post in site.posts limit:8 %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
+    ...
+    <a href="">[ view all ]</a>
   </ul>
 </div>
 
