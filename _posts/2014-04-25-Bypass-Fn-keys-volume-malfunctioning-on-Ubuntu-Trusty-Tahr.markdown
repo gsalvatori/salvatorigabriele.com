@@ -31,7 +31,7 @@ sudo update-grub
 
 but when I reboot, the problem wasn't solved. So I decided to do not waste more time and use the <a href="http://www.nongnu.org/xbindkeys/xbindkeys.html"><b>xbindkeys</b></a> utility that allows you to execute linux commands by setting keyboard shortcuts. Let's see how to use it properly:
 
-First of all, you have to install it on your linux machine, together with xvkbd (a virtual graphical keyboard program)
+First of all, you need to download and run it on your linux machine, together with xvkbd (a virtual graphical keyboard program)
 
 {% highlight bash %}
 sudo apt-get install xbindkeys
