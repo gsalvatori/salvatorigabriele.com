@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Bypass Fn keys malfunctioning on Ubuntu 14.04 (Trusty Tahr)"
+title:  "Bypass Fn keys volume malfunctioning on Ubuntu 14.04 (Trusty Tahr)"
 date:   2014-04-25 22:49:00
 categories: guides
 ---
@@ -40,6 +40,36 @@ sudo apt-get install xbindkeys
 {% highlight bash %}
 sudo apt-get install xvkbd
 {% endhighlight %}
+
+then, we have to create our config file to set commands and shortcuts
+
+{% highlight bash %}
+xbindkeys -d > ~/.xbindkeysrc
+{% endhighlight %}
+
+Syntax is extremely simple: comments, actions(linux commands) and events(keyboard shortcuts)
+
+{% highlight bash %}
+# comment
+"action"
+   event
+{% endhighlight %}
+
+it's just with this syntax that we are going to set up our Fn keys for the volume control. Using "xbindkeys -k" from terminal we can get the right event related to a determined combination of keys. After this, we associate alsamixer decrease/increase commands to the events and the problem is solved.
+
+{% highlight bash %}
+## INCREASE VOLUME WITH FN + F12
+"amixer -D pulse sset Master 5%+"
+   m:0x0 + c:123
+   XF86AudioRaiseVolume
+
+## DECREASE VOLUME WITH FN + F11
+"amixer -D pulse sset Master 5%-"
+    m:0x0 + c:122
+    XF86AudioLowerVolume
+{% endhighlight %}
+
+
 
 
 
