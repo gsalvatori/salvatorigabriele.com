@@ -69,6 +69,8 @@ it's just with this syntax that we are going to set up our Fn keys for the volum
     XF86AudioLowerVolume
 {% endhighlight %}
 
+And now, we only have to start the xbindkeys daemon and insert it in startup applications to enjoy our shortcuts each time our linux machine will be launched.
+
 
 
 
