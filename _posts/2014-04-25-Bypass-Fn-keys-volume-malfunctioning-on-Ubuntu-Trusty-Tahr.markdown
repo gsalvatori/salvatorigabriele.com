@@ -29,7 +29,7 @@ And finally, updating GRUB with
 sudo update-grub
 {% endhighlight %}
 
-but when I reboot, the problem was <b>NOT</b> solved. So I decided to don't waste more time and use the <a href="http://www.nongnu.org/xbindkeys/xbindkeys.html"><b>xbindkeys</b></a> utility that allows you to execute linux commands by setting keyboard shortcuts. Let's see how to use it properly:
+but when I reboot, the problem wasn't solved. So I decided to do not waste more time and use the <a href="http://www.nongnu.org/xbindkeys/xbindkeys.html"><b>xbindkeys</b></a> utility that allows you to execute linux commands by setting keyboard shortcuts. Let's see how to use it properly:
 
 First of all, you have to install it on your linux machine, together with xvkbd (a virtual graphical keyboard program)
 
