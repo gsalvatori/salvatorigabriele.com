@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Bypass Fn keys malfunctioning on Ubuntu 14.04 (Trusty Tahr)"
+title:  "Bypass Fn keys malfunctioning on Ubuntu 14.04 (Trusty Tahr) using xbindkeys"
 date:   2014-04-25 22:49:00
 categories: guides
 ---
