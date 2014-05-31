@@ -1,82 +1,84 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="refresh" content="30">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
-        <meta name=author content=”Gabriele-Salvatori”>
-        <meta name="description" content="Computer Science student, Italy. Interested in engineering, computer science, electronics, and everything about scientific discipines." />
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="refresh" content="30">
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name=author content=”Gabriele-Salvatori”>
+    <meta name="description" content="Computer Science student, Italy. Interested in engineering, computer science, electronics, and everything about scientific discipines." />
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
+    <title>salvatorigabriele.com</title>
 
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
-        <!-- <link rel="stylesheet" href="/css/bootstrap.min.css"> -->
-        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400italic,400,600,700|Abril+Fatface">
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
 
-    </head>
-<body>
+    <!-- Custom styles for this template -->
+    <link href="/css/blog.css" rel="stylesheet">
 
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 
-<div class="site">
-  <div class="title">
-    <a href="/">home</a>
-    <a class="extra" href="/about.html">about</a>
-    <a class="extra" href="/projects.html">projects</a>
-    <a class="extra" href="mailto:salvatorigabriele@gmail.com">contact me</a>
-    <a class="extra" href="/cv.html">CV</a>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="blog-nav">
+          <a class="blog-nav-item" href="/">Home</a>
+          <a class="blog-nav-item" href="/about.html">About</a>
+          <a class="blog-nav-item" href="/projects.html">Projects</a>
+          <a class="blog-nav-item" href="mailto:salvatorigabriele@gmail.com">Contact Me</a>
+          <a class="blog-nav-item" href="/cv.html">CV</a>
+        </nav>
+      </div>
     </div>
-    
+
+    <div class="container">
+
+      <div class="blog-header">
+
+      </div>
+
+      <div class="row">
+
+        <div class="col-sm-8 blog-main">
+
+          <div class="blog-post">
 <h2>{{ page.title }}</h2>
 <p class="meta">{{ page.date | date_to_string }}</p>
 
 <div class="post">
 {{ content }}
 </div>
+          </div><!-- /.blog-post -->
+
+        </div><!-- /.blog-main -->
+ 
+
+      </div><!-- /.row -->
+
+    </div><!-- /.container -->
+
+    <div class="blog-footer">
+      <p>© 2014 | All rights reserved.</p>
+      <p>
+        <a href="#">Back to top</a>
+      </p>
+    </div>
 
 
-<br>
-<hr>
-<br>
-<!-- AddThis Smart Layers BEGIN -->
-<!-- Go to http://www.addthis.com/get/smart-layers to customize -->
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-51c5d41c390cd3b9"></script>
-<script type="text/javascript">
-  addthis.layers({
-    'theme' : 'transparent',
-    'share' : {
-      'position' : 'left',
-      'numPreferredServices' : 5
-    }, 
-    'follow' : {
-      'services' : [
-        {'service': 'facebook', 'id': 'salvatorigabriele'},
-        {'service': 'twitter', 'id': '_gsalvatori'},
-        {'service': 'google_follow', 'id': '+GabrieleSalvatori'}
-      ]
-    }   
-  });
-</script>
-<!-- AddThis Smart Layers END -->
-
-<br><br>
-
-<div id="disqus_thread"></div>
-    <script type="text/javascript">
-        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-        var disqus_shortname = 'gsalvatori'; // required: replace example with your forum shortname
-
-        /* * * DON'T EDIT BELOW THIS LINE * * */
-        (function() {
-            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-    
-</div>
-
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="../../assets/js/docs.min.js"></script>
+  </body>
+</html>
