@@ -1,11 +1,40 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="refresh" content="30">
+        <title>{{ page.title }}</title>
+        <meta name="viewport" content="width=device-width">
+        <meta name=author content=”Gabriele-Salvatori”>
+        <meta name="description" content="Computer Science student, Italy. Interested in engineering, computer science, electronics, and everything about scientific discipines." />
+
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="/css/syntax.css">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/css/main.css">
+        <!-- <link rel="stylesheet" href="/css/bootstrap.min.css"> -->
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400italic,400,600,700|Abril+Fatface">
+
+    </head>
+<body>
+
+
+<div class="site">
+  <div class="title">
+    <a href="/">home</a>
+    <a class="extra" href="/about.html">about</a>
+    <a class="extra" href="/projects.html">projects</a>
+    <a class="extra" href="mailto:salvatorigabriele@gmail.com">contact me</a>
+    <a class="extra" href="/cv.html">CV</a>
+    </div>
+    
 <h2>{{ page.title }}</h2>
 <p class="meta">{{ page.date | date_to_string }}</p>
 
 <div class="post">
 {{ content }}
+</div>
 </div>
 
 <br>
