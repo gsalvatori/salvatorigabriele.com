@@ -12,6 +12,9 @@
 
     <!-- Bootstrap core CSS -->
     <link href="/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- original CSS style for posts -->
+    <link href="/css/main.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="/css/blog.css" rel="stylesheet">
@@ -51,11 +54,11 @@
 
         <div class="col-sm-8 blog-main">
 
-          <div class="blog-post">
+          <div id="post">
 <h2>{{ page.title }}</h2>
 <p class="meta">{{ page.date | date_to_string }}</p>
 
-<div class="post">
+<div id="post">
 {{ content }}
 </div>
           </div><!-- /.blog-post -->
