@@ -147,6 +147,10 @@ h6, .h6 {
  * Blog posts
  */
 
+.blog-post-main {
+  margin-bottom: 60px;
+}
+
 .blog-post {
   margin-bottom: 60px;
 }
