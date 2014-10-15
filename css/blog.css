@@ -152,8 +152,7 @@ h6, .h6 {
 }
 
 .blog-post {
-  margin-right:  60px;
-  margin-bottom: 60px;
+  margin:0px auto;
 }
 .blog-post-title {
   margin-bottom: 5px;
