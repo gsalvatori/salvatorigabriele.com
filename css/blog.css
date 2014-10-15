@@ -21,6 +21,13 @@ h6, .h6 {
   color: #545454;
 }
 
+.maintitle {
+  margin-top: 0;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  color: #cdddeb;
+}
+
 
 /*
  * Override Bootstrap's default container.
