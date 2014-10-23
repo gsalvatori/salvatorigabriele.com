@@ -33,7 +33,7 @@ final.print_matrix();
 return 0;
 
 }
-{% endhighlight%}
+{% endhighlight %}
 
 
 In this example, we declared three 3X3 matrix, final will contain the sum of a and b simply using the classic binary operator. How can this be possibile? C++ allows <b>operator overloading</b>, a specific case of polymorphism, where different operators have different implementations depending on their arguments. So, in practice, we have "reassigned" the procedure which consists in adding two matrices each other, to the + operator:
