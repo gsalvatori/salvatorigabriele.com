@@ -104,7 +104,7 @@ pre[class*="language-"] {
 .language-css .token.string,
 .style .token.string {
 	color: #a67f59;
-	background: #FFFFFF;
+	background: #202020;
 }
 
 .token.atrule,
