@@ -21,16 +21,28 @@
     
     <!-- tooltip css -->
     <style type="text/css"> 
-      .tooltip {
-      display:none;
-      position:absolute;
-      border:1px solid #333;
-      background-color:#161616;
-      border-radius:5px;
-      padding:10px;
-      color:#fff;
-      font-size:12px Arial;
-      }
+a[title]:hover:after {
+  content: attr(title);
+  padding: 4px 8px;
+  color: #333;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  white-space: nowrap;
+  z-index: 20px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 0px 0px 4px #222;
+  -webkit-box-shadow: 0px 0px 4px #222;
+  box-shadow: 0px 0px 4px #222;
+  background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);
+  background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #eeeeee),color-stop(1, #cccccc));
+  background-image: -webkit-linear-gradient(top, #eeeeee, #cccccc);
+  background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);
+  background-image: -ms-linear-gradient(top, #eeeeee, #cccccc);
+  background-image: -o-linear-gradient(top, #eeeeee, #cccccc);
+}
     </style>
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
@@ -103,32 +115,6 @@
 
 </script>
 <!--- end Google Analytics-->
-
-<!-- tooltip jquery -->
-<script type="text/javascript">
-$(document).ready(function() {
-// Tooltip only Text
-$('.masterTooltip').hover(function(){
-        // Hover over code
-        var title = $(this).attr('title');
-        $(this).data('tipText', title).removeAttr('title');
-        $('<p class="tooltip"></p>')
-        .text(title)
-        .appendTo('body')
-        .fadeIn('slow');
-}, function() {
-        // Hover out code
-        $(this).attr('title', $(this).data('tipText'));
-        $('.tooltip').remove();
-}).mousemove(function(e) {
-        var mousex = e.pageX + 20; //Get X coordinates
-        var mousey = e.pageY + 10; //Get Y coordinates
-        $('.tooltip')
-        .css({ top: mousey, left: mousex })
-});
-});
-</script>
-<!-- end tooltip jquery -->
 
     <div class="blog-footer">
       <p>© 2014 | All rights reserved.</p>
