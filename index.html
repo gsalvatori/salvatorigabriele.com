@@ -5,20 +5,14 @@ title: salvatorigabriele.com
 
 
 <div id="home">
-  <!-- <a href="/subscribe.html"><b>Subscribe</b></a> to the newsletter to receive new articles via e-mail.<br><br> -->
-  <ul class="posts">
+  
+   <ul class="posts">
     {% for post in site.posts limit:8 %}
       <br>
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li><br>
-      <!--
-      {% if post.content contains "<!-- more -->" %}
-        {{ post.content | split:"<!-- more -->" | first % }}
-      {% else %}
-        {{ post.content | strip_html | truncatewords:100 }}
-      {% endif %}
-      -->
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}" title="{{ post.content | strip_html | truncatewords:100 }}">{{ post.title }}</a></li><br>
     {% endfor %}
   </ul>
+  -->
   
   <br>
             <ul class="pager">
