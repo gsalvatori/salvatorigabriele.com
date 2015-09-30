@@ -1,0 +1,71 @@
+circle.node {
+  cursor: pointer;
+  stroke: #000;
+  stroke-width: .5px;
+}
+
+circle.node.directory {
+  stroke: #9ecae1;
+  stroke-width: 2px;
+}
+
+circle.node.collapsed {
+  stroke: #555;
+}
+
+.nodetext {
+  fill: #252929;
+  font-weight: bold;
+  text-shadow: 0 0 0.2em white;
+}
+
+line.link {
+  fill: none;
+  stroke: #9ecae1;
+  stroke-width: 1.5px;
+}
+
+.socialbuttons{
+  margin-right: 10px;
+}
+
+.backgraph{
+  background: #333;
+}
+
+.space-home-link{
+  margin-right: 15px;
+}
+
+.img-res{
+  display: inline-block;
+  width: 30%;
+  height: auto;
+  border: rgb(132, 132, 132);
+  border-style: solid;
+  border-width: initial;
+}
+
+.black{
+  color: #000;
+  text-align: justify;
+}
+
+.b-margin{
+  padding: 8px 0;
+}
+
+@media (max-width: 497px) {
+
+  .space-home-link{
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+
+}
+
+.left{
+
+  text-align: left;
+}
+

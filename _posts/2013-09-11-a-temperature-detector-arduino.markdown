@@ -1,8 +1,0 @@
----
-layout: post
-title:  "A temperature detector with Arduino and LM35DZ sensor"
-date:   2013-09-11 16:03:00
-categories: papers
----
-
-Today I wrote a very simple guide (in Italian language) that explains how to create a homemade temperature monitoring system using Arduino and LM35DZ sensor. You can find the entire PDF file <a href="http://salvatorigabriele.com/research~papers/paper2.pdf">here</a>.
